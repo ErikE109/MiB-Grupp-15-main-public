@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="lblInloggadSom" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnLoggaut" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Component id="btnBacka" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnAvsluta" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="lbRubrikID" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                              <Component id="lblvisaID" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="lblRegistreraAlien" min="-2" pref="103" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="105" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblInloggadSom" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnLoggaut" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="lblRegistreraAlien" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbRubrikID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblvisaID" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="45" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnBacka" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAvsluta" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnBacka">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="F&#xf6;reg&#xe5;ende sida"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLoggaut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Logga ut"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLoggautActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAvsluta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avsluta program"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAvslutaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInloggadSom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Inloggad som"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRegistreraAlien">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registrera alien"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblRubrikRegd" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblRubrikNamn" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblRubrikRas" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblRubrikLösen" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblRubrikTelefon" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblRubrikPlats" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblRubrikAgent" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cbAgenter" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbPlatser" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtTelefon" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtLösenord" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="cbRaser" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="lblRasAttribut" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="txtRasAttribut" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="txtNamn" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblDagensDatum" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                          <Component id="btnRegistreraAlien" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="203" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblRubrikRegd" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblDagensDatum" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblRubrikNamn" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="txtNamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblRubrikRas" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="cbRaser" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblRasAttribut" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtRasAttribut" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblRubrikLösen" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="txtLösenord" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblRubrikTelefon" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="txtTelefon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblRubrikPlats" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="cbPlatser" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblRubrikAgent" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="cbAgenter" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="btnRegistreraAlien" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="51" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblRubrikRegd">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Registreringsdatum"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDagensDatum">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dagens datum"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblRubrikNamn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Namn"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNamn">
+          <Properties>
+            <Property name="columns" type="int" value="5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblRubrikRas">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ras"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbRaser">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbRaserActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblRubrikL&#xf6;sen">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="L&#xf6;senord"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JPasswordField" name="txtL&#xf6;senord">
+          <Properties>
+            <Property name="columns" type="int" value="5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblRubrikTelefon">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Telefonnummer"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTelefon">
+          <Properties>
+            <Property name="columns" type="int" value="5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblRubrikPlats">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Plats"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbPlatser">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblRubrikAgent">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ansvarig Agent"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbAgenter">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblRasAttribut">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Attribut"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtRasAttribut">
+          <Properties>
+            <Property name="columns" type="int" value="5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnRegistreraAlien">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Slutf&#xf6;r registrering"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegistreraAlienActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lbRubrikID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID-nummer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblvisaID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ett ID"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
